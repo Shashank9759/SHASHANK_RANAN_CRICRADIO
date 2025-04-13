@@ -78,16 +78,17 @@ Recreate a specific screen from the CricRadio app using **Jetpack Compose**, int
 ## 📸 Screenshots
 
 ### 🏏 Main Scorecard Screen  
-![Main Scorecard](https://github.com/user-attachments/assets/1d53a799-9623-4f82-8878-d680067afa07)
+<img src="https://github.com/user-attachments/assets/1d53a799-9623-4f82-8878-d680067afa07" alt="Main Scorecard" width="300"/>
 
-### 🏟️ Venue Information  
-![Venue Info](https://github.com/user-attachments/assets/a926a44b-3d99-48a2-aa26-27aba325c3ff)
+### 🏟️ Venue Information 1 
+<img src="https://github.com/user-attachments/assets/a926a44b-3d99-48a2-aa26-27aba325c3ff" alt="Venue Info" width="300"/>
 
-### 🔄 WebSocket Communication  
-![WebSocket](https://github.com/user-attachments/assets/eed445aa-5392-4a6c-a3e9-f5f2d52b5a48)
+### 🏟️ Venue Information 2  
+<img src="https://github.com/user-attachments/assets/eed445aa-5392-4a6c-a3e9-f5f2d52b5a48" alt="WebSocket" width="300"/>
 
-### 📲 Responsive UI  
-![Responsive UI](https://github.com/user-attachments/assets/7efac69d-a57c-4c26-8dec-ac0d1ae1e49b)
+### 📲 WebSocket Communication   
+<img src="https://github.com/user-attachments/assets/7efac69d-a57c-4c26-8dec-ac0d1ae1e49b" alt="Responsive UI" width="300"/>
+
 
 ---
 
