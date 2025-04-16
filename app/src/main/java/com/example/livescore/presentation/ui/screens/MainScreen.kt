@@ -50,7 +50,7 @@ fun MainScreen(
         color = Color(0xFF000000)
     ) {
         when {
-            isLoading || miniCard==null || venueInfo==null -> {
+            isLoading || venueInfo==null -> {
                 Box(
                     modifier = Modifier.fillMaxSize(),
                     contentAlignment = Alignment.Center
@@ -76,9 +76,11 @@ fun MainScreen(
                 ){
 
 
-                    Box(modifier = Modifier.padding(start = 16.dp, end = 16.dp,top=16.dp).background(Color(0xFF000000))){
-                        ScoreScreen(miniCard)
-                    }
+               if(miniCard!=null){
+                   Box(modifier = Modifier.padding(start = 16.dp, end = 16.dp,top=16.dp).background(Color(0xFF000000))){
+                       ScoreScreen(miniCard)
+                   }
+               }
                     VenueScreen(venueInfo)
 
 

@@ -36,11 +36,23 @@ class ScoreViewModel @Inject constructor(
         viewModelScope.launch {
             try {
                 isLoading = true
-                val miniCardResult = getMiniCardUseCase(key)
+                var miniCardResult:Minicard?=null
+
+                try{
+                     miniCardResult = getMiniCardUseCase(key)
+                    miniCard = miniCardResult
+                }catch(e:Exception) {
+                    miniCardResult=null
+                    miniCard=miniCardResult
+
+                }
+
                 val venueResult = getVenueInfoUseCase(key)
-                miniCard = miniCardResult
+
                 venueInfo = venueResult
+
                 errorMessage = null
+                Log.d("Tagggggg","success" )
             } catch (e: Exception) {
                 errorMessage = e.localizedMessage ?: "Unknown error"
                 Log.d("Tagggggg",e.message.toString() )

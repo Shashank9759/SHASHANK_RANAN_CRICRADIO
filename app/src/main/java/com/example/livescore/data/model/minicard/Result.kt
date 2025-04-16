@@ -5,7 +5,7 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class Result(
-    val announcement1: String,
+   // val announcement1: String?,
  //   val announcement2: Any,
     val currentBattingOrder: Int,
     val format: String,

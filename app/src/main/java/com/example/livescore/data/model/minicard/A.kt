@@ -8,7 +8,9 @@ data class A(
     val a_2_score: A1Score,
     val logo: String,
     val name: String,
-    val shortName: String) {
+    val shortName: String
+
+) {
 
 
 
